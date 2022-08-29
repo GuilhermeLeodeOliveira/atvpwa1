@@ -3,7 +3,7 @@ self.addEventListener('install', event => {
 
     // cache a cat SVG
     event.waitUntil(
-        caches.open('static-v1').then(cache => cache.add('/cat.svg'))
+        caches.open('static-v1').then(cache => cache.add(''))
     );
     
     console.log("sw ./ =>  install event detected e cat.svg cacheado!!!");

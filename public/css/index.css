@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+@media(max-width: 1200px){
+
 div.cont{
     background-color: black;
     position: relative;
@@ -43,4 +45,6 @@ input{
 
 input:hover{
     cursor: pointer;
+}
+
 }
